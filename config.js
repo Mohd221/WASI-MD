@@ -17,17 +17,17 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/lagos";
 global.github=process.env.GITHUB|| "https://github.com/wasixd/WASI-MD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a41fc42eacdc2e56fcecd.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d44150b5c7605e510431d.mp4" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "923192173398" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348163717090";
 
 
 
@@ -48,13 +48,13 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923135673658,923192173398";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348163717090,2348163717090";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "923135673658,923192173398";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348163717090,2348163717090";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923135673658,923192173398";
 
 global.api_smd = "https://api-smd-1.vercel.app"
@@ -71,12 +71,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.0.0",
-  caption : process.env.CAPTION || "𝗪𝗔𝗦𝗜 𝗠𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧" , // ```『 ²⁴ ᴠᴇɴᴏᴄʏʙᴇʀ-ᴍᴅ 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@JASTINMTEWA-vn9pl"),
+  caption : process.env.CAPTION || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑" , // ```『 ²⁴ ᴠᴇɴᴏᴄʏʙᴇʀ-ᴍᴅ 』```", //*『ᴠᴇɴᴏᴄʏʙᴇʀ ᴍᴅ』*\n youtube.com/@JASTINMTEWA-vn9pl"),
  
-  author : process.env.PACK_AUTHER|| "𝗪𝗔𝗦𝗜 ",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "𝗪𝗔𝗦𝗜 𝗠𝗗",
-  ownername:process.env.OWNER_NAME|| "It's 𝗜𝗧𝗫𝗫𝗪𝗔𝗦𝗜",
+  author : process.env.PACK_AUTHER|| "×͜×ㅤ𝙰𝙻𝙾𝙽𝙴ㅤ𝙱𝙾𝚈 ×͜× ",
+  packname: process.env.PACK_NAME || "╠𝐁𝐈𝐍𝐀𝐋𝐈-𝐁𝐎𝐓╣",
+  botname : process.env.BOT_NAME  || "𝐁𝐈𝐍𝐀𝐋𝐈 𝐌𝐃-𝐁𝐎𝐓 𝐯𝟑",
+  ownername:process.env.OWNER_NAME|| "𝐈𝐭𝐳 𝐁𝐢𝐧 𝐀𝐥𝐢 ˡᵉᵍᵉⁿᵈ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
